@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back"
+        android:elevation="8sp"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+
+
+        <ImageView
+            android:id="@+id/imageViewDeputy"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="10sp"/>
+
+
+
+        <TextView
+            android:id="@+id/textViewDeputyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/textViewDeputyCirco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textViewDeputyGroupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textViewDeputyEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_back"
+        android:elevation="8sp"
+        android:gravity="center"
+        android:text="Responsabilité"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_margin="10sp"/>
+
+    <ListView
+        android:id="@+id/listViewResponsability"
+        android:layout_width="match_parent"
+        android:layout_margin="5sp"
+        android:layout_height="200dp"
+        tools:listitem="@layout/item_responsability"
+        tools:listSelector="@color/material_on_surface_stroke"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_back"
+        android:elevation="8sp"
+        android:gravity="center"
+        android:text="Collaborateurs"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
+
+    <ListView
+        android:id="@+id/listViewCollaborateur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:listitem="@layout/item_collab" />
+
+
+</LinearLayout>
