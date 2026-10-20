@@ -1,10 +1,10 @@
-# Mes Députés 🇫🇷
+# Mes Députés
 
 Application Android permettant de consulter facilement les informations relatives aux députés et d'explorer leurs collaborateurs ainsi que leurs responsabilités.
 
 L'application propose une interface simple pour parcourir les députés, effectuer une recherche par ville et consulter le profil détaillé d'un député.
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 - Affichage de l'écran d'accueil.
 - Recherche de députés par ville.
@@ -14,7 +14,7 @@ L'application propose une interface simple pour parcourir les députés, effectu
 - Récupération des données depuis des endpoints distants.
 - Interface Android basée sur les composants AndroidX et Material Design.
 
-## 🖼️ Aperçu de l'application
+## Aperçu de l'application
 
 ### Écran d'accueil
 
@@ -28,7 +28,7 @@ L'application propose une interface simple pour parcourir les députés, effectu
 
 ![Profil d'un député](https://github.com/hichemmezemate/mesdeputes/assets/78790205/080dbf0c-a0ce-40a2-ada2-f72898f2af34)
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 - **Kotlin/Java Android** — développement de l'application mobile
 - **Android SDK 34**
@@ -48,7 +48,7 @@ Avant de lancer le projet, assurez-vous d'avoir installé :
 - JDK 8 ou version compatible avec votre installation Android Studio
 - Un appareil Android ou un émulateur avec Android 11 / API 30 minimum
 
-## 🚀 Installation
+## Installation
 
 1. Clonez le dépôt :
 
@@ -71,7 +71,7 @@ Vous pouvez également compiler et installer l'application depuis le terminal :
 
 Sous Windows, utilisez `gradlew.bat` à la place de `./gradlew`.
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```text
 mesdeputes/
@@ -86,13 +86,13 @@ mesdeputes/
 └── README.md
 ```
 
-## 🔌 Données et API
+## Données et API
 
 L'application s'appuie sur des endpoints dédiés aux **collaborateurs** et aux **responsabilités** des députés. Les données sont récupérées au format JSON, puis converties en objets utilisables dans l'application grâce à Gson.
 
 Les appels réseau sont effectués avec Volley. Une connexion Internet est donc nécessaire pour charger les informations depuis l'API.
 
-## 🧪 Tests
+## Tests
 
 Pour exécuter les tests unitaires :
 
@@ -106,14 +106,14 @@ Pour exécuter les tests instrumentés sur un appareil ou un émulateur :
 ./gradlew connectedAndroidTest
 ```
 
-## 📦 Version
+## Version
 
 - Version actuelle : `1.0`
 - `minSdk` : `30`
 - `targetSdk` : `34`
 - `compileSdk` : `34`
 
-## 🤝 Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! Pour proposer une amélioration :
 
@@ -128,7 +128,7 @@ Les contributions sont les bienvenues ! Pour proposer une amélioration :
 4. Vérifiez que le projet compile et que les tests passent.
 5. Ouvrez une Pull Request en décrivant clairement vos changements.
 
-## 📄 Licence
+## Licence
 
 Aucune licence n'est actuellement spécifiée pour ce projet. Si vous souhaitez réutiliser ou distribuer le code, contactez l'auteur afin de clarifier les conditions d'utilisation.
 
