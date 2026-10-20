@@ -132,6 +132,3 @@ Les contributions sont les bienvenues ! Pour proposer une amélioration :
 
 Aucune licence n'est actuellement spécifiée pour ce projet. Si vous souhaitez réutiliser ou distribuer le code, contactez l'auteur afin de clarifier les conditions d'utilisation.
 
-## 👤 Auteur
-
-Développé par [Hichem Mezemate](https://github.com/hichemmezemate).
