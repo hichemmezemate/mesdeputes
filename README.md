@@ -39,7 +39,7 @@ L'application propose une interface simple pour parcourir les députés, effectu
 - **Gson** — sérialisation et désérialisation des données JSON
 - **Gradle** — gestion de la compilation et des dépendances
 
-## 📋 Prérequis
+## Prérequis
 
 Avant de lancer le projet, assurez-vous d'avoir installé :
 
